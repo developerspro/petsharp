@@ -10,6 +10,15 @@ namespace PetShop
     {
         static void Main(string[] args)
         {
+            Roupa rp = new Roupa("Roupa");
+            Produto p = new Produto("Produto");
+            Produto pd = new Produto(1,"produto");
+            Racao rc = new Racao("Criando Racao");
+            rc.cadastrarProduto();
+            rc.mostrarProduto();
+            //rp.cadastrarProduto();
+            Console.ReadKey();
+           
         }
     }
 }
