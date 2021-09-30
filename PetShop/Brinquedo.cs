@@ -11,10 +11,7 @@ namespace PetShop
         public string medida;
         public string material;
 
-        public Brinquedo(string n) : base(n)
-        {
-
-        }
+       
 
         public override void cadastrarProduto()
         {

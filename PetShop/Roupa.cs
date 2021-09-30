@@ -12,10 +12,7 @@ namespace PetShop
         public string tecido;
         public string tamanho;
 
-        public Roupa(string n) : base(n)
-        {
-        }
-
+      
         public void codigo(int cod)
         {
             this.cadastrarCodigo(cod);

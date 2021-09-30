@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace PetShop
 {
-    class Acessorio : Produto
+    class Medicamento : Acessorio
     {
-        protected string cor;
-        public string tamanho;
 
-      
     }
 }

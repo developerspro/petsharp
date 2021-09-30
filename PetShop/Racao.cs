@@ -12,10 +12,6 @@ namespace PetShop
         public bool corante;
         public string tipo;//filhote ou adulto.
 
-        public Racao(string n) : base(n)
-        {
-        }
-
         public override void cadastrarProduto()
         {
             base.cadastrarProduto();
